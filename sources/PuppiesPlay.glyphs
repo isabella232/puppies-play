@@ -34738,16 +34738,7 @@ note = HT;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "PuppiesPlay-ROB";
-},
-{
-name = postscriptFontName;
-value = "PuppiesPlay-ROB";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "8EA81196-DECD-41FE-BBCC-1E9228602C7C" = 1;
 };
