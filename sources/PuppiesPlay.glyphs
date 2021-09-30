@@ -135,31 +135,35 @@ capHeight = 530;
 customParameters = (
 {
 name = typoAscender;
-value = 564;
+value = 800;
 },
 {
 name = typoDescender;
-value = -205;
+value = -300;
 },
 {
 name = typoLineGap;
-value = 58;
-},
-{
-name = winAscent;
-value = 737;
-},
-{
-name = winDescent;
-value = 224;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 737;
+value = 800;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -300;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 850;
+},
+{
+name = winDescent;
+value = 300;
 },
 {
 name = strikeoutPosition;
@@ -216,6 +220,9 @@ position = "{78, 652}";
 locked = 1;
 position = "{78, 763}";
 }
+);
+horizontalStems = (
+20
 );
 id = "8EA81196-DECD-41FE-BBCC-1E9228602C7C";
 userData = {
