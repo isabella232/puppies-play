@@ -24,7 +24,8 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ,
 "/fraction",
 "/divisionslash",
 "­",
-"/quotedblbase"
+"/quotedblbase",
+"/commaaccentcomb"
 );
 classes = (
 {
@@ -114,7 +115,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb commaaccent dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb tildecomb_dotaccentcomb tildecomb_macroncomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];\012	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case tildecomb_dotaccentcomb.case tildecomb_macroncomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub tildecomb dotaccentcomb by tildecomb_dotaccentcomb;\012	sub tildecomb.case dotaccentcomb.case by tildecomb_dotaccentcomb.case;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012} ccmp_Other_3;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012} ccmp_latn_1;\012\012script latn;\012lookup ccmp_latn_1;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb tildecomb_dotaccentcomb tildecomb_macroncomb macroncomb hookabovecomb dblgravecomb breveinvertedcomb commaturnedabovecomb horncomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];\012	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case caroncomb.alt.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case tildecomb_dotaccentcomb.case tildecomb_macroncomb.case macroncomb.case hookabovecomb.case dblgravecomb.case breveinvertedcomb.case commaturnedabovecomb.case horncomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub tildecomb dotaccentcomb by tildecomb_dotaccentcomb;\012	sub tildecomb.case dotaccentcomb.case by tildecomb_dotaccentcomb.case;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012} ccmp_Other_3;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb.case acutecomb.case by brevecomb_acutecomb.case;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb.case gravecomb.case by brevecomb_gravecomb.case;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb.case hookabovecomb.case by brevecomb_hookabovecomb.case;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub brevecomb.case tildecomb.case by brevecomb_tildecomb.case;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb.case acutecomb.case by circumflexcomb_acutecomb.case;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb.case gravecomb.case by circumflexcomb_gravecomb.case;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb.case hookabovecomb.case by circumflexcomb_hookabovecomb.case;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012	sub circumflexcomb.case tildecomb.case by circumflexcomb_tildecomb.case;\012} ccmp_latn_1;\012\012script latn;\012lookup ccmp_latn_1;\012";
 name = ccmp;
 },
 {
@@ -61842,88 +61843,6 @@ width = 71;
 }
 );
 note = commaaccent;
-unicode = 0326;
-},
-{
-glyphname = commaaccentcomb;
-lastChange = "2021-10-08 08:56:11 +0000";
-layers = (
-{
-anchors = (
-{
-name = _bottom;
-position = "{36, 0}";
-},
-{
-name = bottom;
-position = "{36, -180}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"0 -205 OFFCURVE",
-"1 -208 OFFCURVE",
-"13 -208 CURVE SMOOTH",
-"47 -208 OFFCURVE",
-"71 -163 OFFCURVE",
-"71 -129 CURVE SMOOTH",
-"71 -106 OFFCURVE",
-"61 -88 OFFCURVE",
-"38 -88 CURVE SMOOTH",
-"20 -88 OFFCURVE",
-"10 -102 OFFCURVE",
-"10 -115 CURVE SMOOTH",
-"10 -132 OFFCURVE",
-"29 -142 OFFCURVE",
-"51 -132 CURVE",
-"55 -157 OFFCURVE",
-"31 -196 OFFCURVE",
-"13 -196 CURVE SMOOTH",
-"6 -196 OFFCURVE",
-"0 -198 OFFCURVE",
-"0 -202 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = "8EA81196-DECD-41FE-BBCC-1E9228602C7C";
-paths = (
-{
-closed = 1;
-nodes = (
-"47 -180 OFFCURVE",
-"71 -135 OFFCURVE",
-"71 -101 CURVE SMOOTH",
-"71 -78 OFFCURVE",
-"61 -60 OFFCURVE",
-"38 -60 CURVE SMOOTH",
-"20 -60 OFFCURVE",
-"10 -74 OFFCURVE",
-"10 -87 CURVE SMOOTH",
-"10 -99 OFFCURVE",
-"20 -108 OFFCURVE",
-"34 -108 CURVE SMOOTH",
-"39 -108 OFFCURVE",
-"45 -107 OFFCURVE",
-"51 -104 CURVE",
-"55 -129 OFFCURVE",
-"31 -168 OFFCURVE",
-"13 -168 CURVE SMOOTH",
-"6 -168 OFFCURVE",
-"0 -170 OFFCURVE",
-"0 -174 CURVE SMOOTH",
-"0 -177 OFFCURVE",
-"1 -180 OFFCURVE",
-"13 -180 CURVE SMOOTH"
-);
-}
-);
-width = 71;
-}
-);
 unicode = 0326;
 },
 {
